@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+<div class="row">
+  <div class="col-md-12">
+    <div class="thumbnail">
+       <%= image_tag(@recipe.picture_url || 'http://placehold.it/1200x350', :width => 1200) %>
+      <div class="caption">
+        <h3><%= @recipe.name %></h3>
+<p>
+  <strong>Ime:</strong>
+  <%= @recipe.name %>
+</p>
+
+<p>
+  <strong>Opis:</strong>
+  <%= @recipe.description %>
+</p>
+
+<p>
+  <strong>Instrukcije:</strong>
+  <%= @recipe.instructions %>
+</p>
+
+<p>
+  <strong>Ocena:</strong>
+  <%= @recipe.rating %>
+</p>
+
+<p>
+  <strong>Vreme pripreme:</strong>
+  <%= @recipe.time_to_cook %>
+</p>
+
+<p>
+  <strong>Tezina:</strong>
+  <%= @recipe.skill %>
+</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<%= link_to 'Edit', edit_recipe_path(@recipe) %> |
+<%= link_to 'Back', recipes_path %>

@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyString
+  instructions: MyString
+  time_to_cook: 1
+  rating: 1
+  skill: 1
+
+two:
+  name: MyString
+  description: MyString
+  instructions: MyString
+  time_to_cook: 1
+  rating: 1
+  skill: 1
