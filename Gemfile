@@ -40,4 +40,4 @@ gem 'spring',        group: :development
 
 gem 'carrierwave'
 gem 'rails_12factor', group: :production
-
+gem 'pg', group: :production
